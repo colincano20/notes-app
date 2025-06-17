@@ -3,8 +3,17 @@ color: red;
 text-align: center;
 justify-content: space-between;
 align-items: center;
-
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+body{
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #00FFFF;
+font-family: 'Segoe UI', sans-serif;
+font-size: 14px;
+}
+
 ul{
     list-style:square;
     
@@ -13,7 +22,7 @@ ul{
 button{
     background-color: black;
     color:purple;
-    border: yellow .5px solid;
+    
     
 }
 footer{
@@ -24,5 +33,5 @@ footer{
   background-color:black;
   color: purple;
   text-align: center;
-  border-top: 1px solid yellow;
+  border-top: 1px solid #C0C0C0;
 }
